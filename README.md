@@ -28,3 +28,6 @@ The project goal is to operationalize this working, machine learning microservic
   - bash run_docker.sh:
 * Then, to make a prediction, open another terminal windown and run,
   - bash make_prediction.sh
+* To use Kubernetes to run docker image
+  - minikube start
+  - bash run_kubernetes.sh
