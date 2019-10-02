@@ -7,7 +7,7 @@ In this project, a Machine Learning Microservice API is operationalized
 
 A pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project I operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
-### Project Files
+## Project Files
 
 The project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. 
 * Dockerfile: using to build docker image
@@ -22,9 +22,9 @@ The project goal is to operationalize this working, machine learning microservic
 * output_txt_files: log statements
 
 ## How to run
-* clone the project repository
-  git clone https://github.com/hamaer0214/udacitykube.git
+* clone the project repository:
+  - git clone https://github.com/hamaer0214/udacitykube.git
 * To run and build a docker image
-  bash run_docker.sh
+  - bash run_docker.sh:
 * Then, to make a prediction, open another terminal windown and run,
-  bash make_prediction.sh
+  - bash make_prediction.sh
