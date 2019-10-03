@@ -11,8 +11,9 @@ dockerpath=alchemistbear/udacityproject
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username alchemistbear
+docker tag udacityproject alchemistbear/udacityproject:udacity
 
 # Step 3:
 # Push image to a docker repository
-docker tag udacityproject alchemistbear/udacityproject:udacity
 docker push alchemistbear/udacityproject:udacity
